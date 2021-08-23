@@ -1,0 +1,6 @@
+The requested operation requires elevation.
+
+Current WinHTTP proxy settings:
+
+    Direct access (no proxy server).
+

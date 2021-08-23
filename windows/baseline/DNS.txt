@@ -1,0 +1,28 @@
+
+Windows IP Configuration
+
+    windev2106eval.mshome.net
+    ----------------------------------------
+    Record Name . . . . . : WinDev2106Eval.mshome.net
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 598532
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 172.24.16.1
+
+
+    windev2106eval.mshome.net
+    ----------------------------------------
+    No records of type AAAA
+
+
+    1.16.24.172.in-addr.arpa
+    ----------------------------------------
+    Record Name . . . . . : 1.16.24.172.in-addr.arpa.
+    Record Type . . . . . : 12
+    Time To Live  . . . . : 598532
+    Data Length . . . . . : 8
+    Section . . . . . . . : Answer
+    PTR Record  . . . . . : WinDev2106Eval.mshome.net
+
+

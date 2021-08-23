@@ -1,0 +1,233 @@
+Temp Directory Files 
+ Volume in drive C has no label.
+ Volume Serial Number is A640-5015
+
+ Directory of C:\Users\Default\AppData\Local\Temp
+
+12/07/2019  02:14 AM    <DIR>          NT AUTHORITY\SYSTEM    .
+12/07/2019  02:14 AM    <DIR>          NT AUTHORITY\SYSTEM    ..
+               0 File(s)              0 bytes
+
+     Total Files Listed:
+               0 File(s)              0 bytes
+               2 Dir(s)  85,936,775,168 bytes free
+"WDAG Uitility Account AppData\Local\Temp:" 
+User AppData\Local\Temp 
+ Volume in drive C has no label.
+ Volume Serial Number is A640-5015
+
+ Directory of C:\Users\User\AppData\Local\Temp
+
+08/10/2021  06:36 AM    <DIR>          WINDEV2106EVAL\User    .
+08/10/2021  06:36 AM    <DIR>          WINDEV2106EVAL\User    ..
+08/10/2021  12:57 PM                53 WINDEV2106EVAL\User    .ses
+08/10/2021  04:20 AM    <DIR>          WINDEV2106EVAL\User    3lbsex2x.ftt
+08/10/2021  04:20 AM    <DIR>          WINDEV2106EVAL\User    4kk55ktc.y1g
+08/10/2021  04:20 AM    <DIR>          BUILTIN\Administrators 5yfclf2p.1gi
+08/10/2021  01:06 PM           191,504 WINDEV2106EVAL\User    70a3c866-4d98-47ec-87f1-c3c084b5b2ee.tmp
+08/10/2021  01:12 PM           638,570 WINDEV2106EVAL\User    b5ef36bc-f5f4-46ac-b07d-39296d5b4067.tmp
+08/10/2021  01:06 PM           333,747 WINDEV2106EVAL\User    bdba75a9-1169-439e-9158-397c77d96e5f.tmp
+08/10/2021  12:57 PM           208,150 WINDEV2106EVAL\User    da594af0-ea11-4549-8c8b-14320047c139.tmp
+08/10/2021  12:56 PM                88 WINDEV2106EVAL\User    dd_updateconfiguration_20210810125613.log
+08/10/2021  01:11 PM               301 WINDEV2106EVAL\User    dd_updateconfiguration_20210810131026.log
+08/10/2021  01:12 PM           184,828 WINDEV2106EVAL\User    f4c6ed19-66cf-47fc-a121-4205badba1b4.tmp
+06/14/2021  12:49 AM    <DIR>          BUILTIN\Administrators fnre43sw
+06/14/2021  12:44 AM    <DIR>          NT AUTHORITY\SYSTEM    iisexpress
+06/14/2021  12:12 AM    <DIR>          WINDEV2106EVAL\User    Low
+06/14/2021  12:35 AM    <DIR>          BUILTIN\Administrators NuGetScratch
+06/14/2021  01:00 AM    <DIR>          WINDEV2106EVAL\User    RazorVSFeedbackLogs
+06/14/2021  01:00 AM    <DIR>          WINDEV2106EVAL\User    servicehub
+06/14/2021  01:06 AM    <DIR>          BUILTIN\Administrators vs.mcj719337969
+06/14/2021  01:03 AM    <DIR>          BUILTIN\Administrators VSFaultInfo
+08/10/2021  01:10 PM    <DIR>          BUILTIN\Administrators VSLogs
+08/08/2021  10:54 AM        40,873,320 WINDEV2106EVAL\User    wctAC7C.tmp
+08/09/2021  02:20 PM            39,853 WINDEV2106EVAL\User    wctAC7D.tmp
+08/09/2021  02:20 PM            39,853 WINDEV2106EVAL\User    wctF1B3.tmp
+08/10/2021  04:20 AM    <DIR>          BUILTIN\Administrators windowssdk
+06/14/2021  12:46 AM    <DIR>          BUILTIN\Administrators {1657ABEE-7D56-416A-B7E0-A89CC5AAD0F7}
+              11 File(s)     42,510,267 bytes
+
+ Directory of C:\Users\User\AppData\Local\Temp\3lbsex2x.ftt
+
+08/10/2021  04:20 AM    <DIR>          WINDEV2106EVAL\User    .
+08/10/2021  04:20 AM    <DIR>          WINDEV2106EVAL\User    ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\User\AppData\Local\Temp\4kk55ktc.y1g
+
+08/10/2021  04:20 AM    <DIR>          WINDEV2106EVAL\User    .
+08/10/2021  04:20 AM    <DIR>          WINDEV2106EVAL\User    ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\User\AppData\Local\Temp\5yfclf2p.1gi
+
+08/10/2021  04:20 AM    <DIR>          BUILTIN\Administrators .
+08/10/2021  04:20 AM    <DIR>          WINDEV2106EVAL\User    ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\User\AppData\Local\Temp\fnre43sw
+
+06/14/2021  12:49 AM    <DIR>          BUILTIN\Administrators .
+06/14/2021  12:49 AM    <DIR>          WINDEV2106EVAL\User    ..
+06/14/2021  12:49 AM    <DIR>          BUILTIN\Administrators Win10SDK_10.0.19041.799D8F1ED8C0D230CCAC
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\User\AppData\Local\Temp\fnre43sw\Win10SDK_10.0.19041.799D8F1ED8C0D230CCAC
+
+06/14/2021  12:49 AM    <DIR>          BUILTIN\Administrators .
+06/14/2021  12:49 AM    <DIR>          BUILTIN\Administrators ..
+06/14/2021  12:50 AM    <DIR>          BUILTIN\Administrators Installers
+06/14/2021  12:48 AM    <DIR>          BUILTIN\Administrators Redistributable
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\User\AppData\Local\Temp\fnre43sw\Win10SDK_10.0.19041.799D8F1ED8C0D230CCAC\Installers
+
+06/14/2021  12:50 AM    <DIR>          BUILTIN\Administrators .
+06/14/2021  12:50 AM    <DIR>          BUILTIN\Administrators ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\User\AppData\Local\Temp\fnre43sw\Win10SDK_10.0.19041.799D8F1ED8C0D230CCAC\Redistributable
+
+06/14/2021  12:48 AM    <DIR>          BUILTIN\Administrators .
+06/14/2021  12:48 AM    <DIR>          BUILTIN\Administrators ..
+06/14/2021  12:50 AM    <DIR>          BUILTIN\Administrators 10.1.0.0
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\User\AppData\Local\Temp\fnre43sw\Win10SDK_10.0.19041.799D8F1ED8C0D230CCAC\Redistributable\10.1.0.0
+
+06/14/2021  12:50 AM    <DIR>          BUILTIN\Administrators .
+06/14/2021  12:50 AM    <DIR>          BUILTIN\Administrators ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\User\AppData\Local\Temp\iisexpress
+
+06/14/2021  12:44 AM    <DIR>          NT AUTHORITY\SYSTEM    .
+06/14/2021  12:44 AM    <DIR>          WINDEV2106EVAL\User    ..
+06/14/2021  12:44 AM    <DIR>          NT AUTHORITY\SYSTEM    ASP Compiled Templates
+06/14/2021  12:44 AM    <DIR>          NT AUTHORITY\SYSTEM    IIS Temporary Compressed Files
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\User\AppData\Local\Temp\iisexpress\ASP Compiled Templates
+
+06/14/2021  12:44 AM    <DIR>          NT AUTHORITY\SYSTEM    .
+06/14/2021  12:44 AM    <DIR>          NT AUTHORITY\SYSTEM    ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\User\AppData\Local\Temp\iisexpress\IIS Temporary Compressed Files
+
+06/14/2021  12:44 AM    <DIR>          NT AUTHORITY\SYSTEM    .
+06/14/2021  12:44 AM    <DIR>          NT AUTHORITY\SYSTEM    ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\User\AppData\Local\Temp\Low
+
+06/14/2021  12:12 AM    <DIR>          WINDEV2106EVAL\User    .
+06/14/2021  12:12 AM    <DIR>          WINDEV2106EVAL\User    ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\User\AppData\Local\Temp\NuGetScratch
+
+06/14/2021  12:35 AM    <DIR>          BUILTIN\Administrators .
+06/14/2021  12:35 AM    <DIR>          WINDEV2106EVAL\User    ..
+06/14/2021  01:10 AM    <DIR>          BUILTIN\Administrators lock
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\User\AppData\Local\Temp\NuGetScratch\lock
+
+06/14/2021  01:10 AM    <DIR>          BUILTIN\Administrators .
+06/14/2021  01:10 AM    <DIR>          BUILTIN\Administrators ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\User\AppData\Local\Temp\RazorVSFeedbackLogs
+
+06/14/2021  01:00 AM    <DIR>          WINDEV2106EVAL\User    .
+06/14/2021  01:00 AM    <DIR>          WINDEV2106EVAL\User    ..
+08/10/2021  04:20 AM    <DIR>          WINDEV2106EVAL\User    10520
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\User\AppData\Local\Temp\RazorVSFeedbackLogs\10520
+
+08/10/2021  04:20 AM    <DIR>          WINDEV2106EVAL\User    .
+08/10/2021  04:20 AM    <DIR>          WINDEV2106EVAL\User    ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\User\AppData\Local\Temp\servicehub
+
+06/14/2021  01:00 AM    <DIR>          WINDEV2106EVAL\User    .
+06/14/2021  01:00 AM    <DIR>          WINDEV2106EVAL\User    ..
+08/10/2021  04:20 AM    <DIR>          WINDEV2106EVAL\User    logs
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\User\AppData\Local\Temp\servicehub\logs
+
+08/10/2021  04:20 AM    <DIR>          WINDEV2106EVAL\User    .
+08/10/2021  04:20 AM    <DIR>          WINDEV2106EVAL\User    ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\User\AppData\Local\Temp\vs.mcj719337969
+
+08/10/2021  04:20 AM    <DIR>          BUILTIN\Administrators .
+08/10/2021  04:20 AM    <DIR>          WINDEV2106EVAL\User    ..
+08/10/2021  01:11 PM            32,036 BUILTIN\Administrators startup1117254059
+               1 File(s)         32,036 bytes
+
+ Directory of C:\Users\User\AppData\Local\Temp\VSFaultInfo
+
+06/14/2021  01:03 AM    <DIR>          BUILTIN\Administrators .
+06/14/2021  01:03 AM    <DIR>          WINDEV2106EVAL\User    ..
+08/10/2021  04:20 AM    <DIR>          WINDEV2106EVAL\User    210614_010041_5882268
+08/10/2021  04:20 AM    <DIR>          WINDEV2106EVAL\User    210614_010219_5782214
+08/10/2021  04:20 AM    <DIR>          WINDEV2106EVAL\User    210614_010328_9479422
+08/10/2021  04:20 AM    <DIR>          BUILTIN\Administrators 210614_125825_3773553
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\User\AppData\Local\Temp\VSFaultInfo\210614_010041_5882268
+
+08/10/2021  04:20 AM    <DIR>          WINDEV2106EVAL\User    .
+08/10/2021  04:20 AM    <DIR>          BUILTIN\Administrators ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\User\AppData\Local\Temp\VSFaultInfo\210614_010219_5782214
+
+08/10/2021  04:20 AM    <DIR>          WINDEV2106EVAL\User    .
+08/10/2021  04:20 AM    <DIR>          BUILTIN\Administrators ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\User\AppData\Local\Temp\VSFaultInfo\210614_010328_9479422
+
+08/10/2021  04:20 AM    <DIR>          WINDEV2106EVAL\User    .
+08/10/2021  04:20 AM    <DIR>          BUILTIN\Administrators ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\User\AppData\Local\Temp\VSFaultInfo\210614_125825_3773553
+
+08/10/2021  04:20 AM    <DIR>          BUILTIN\Administrators .
+08/10/2021  04:20 AM    <DIR>          BUILTIN\Administrators ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\User\AppData\Local\Temp\VSLogs
+
+08/10/2021  04:20 AM    <DIR>          BUILTIN\Administrators .
+08/10/2021  04:20 AM    <DIR>          WINDEV2106EVAL\User    ..
+08/10/2021  01:10 PM                 0 WINDEV2106EVAL\User    VSF48297BF.Microsoft.ServiceHub.Framework.AuthorizationService.BrokeredClient.svclog
+08/10/2021  01:10 PM                 0 WINDEV2106EVAL\User    VSF48297BF.Microsoft.ServiceHub.Framework.AuthorizationService.BrokeredService.svclog
+08/10/2021  01:11 PM             5,120 WINDEV2106EVAL\User    VSF48297BF.Microsoft.VisualStudio.GlobalBrokeredServiceContainer.svclog
+08/10/2021  01:10 PM                 0 WINDEV2106EVAL\User    VSF48297BF.Microsoft.VisualStudio.Setup.EnvironmentConfigurationService.1.0.BrokeredClient.svclog
+08/10/2021  01:10 PM                 0 WINDEV2106EVAL\User    VSF48297BF.Microsoft.VisualStudio.Setup.EnvironmentConfigurationService.1.0.BrokeredService.svclog
+               5 File(s)          5,120 bytes
+
+ Directory of C:\Users\User\AppData\Local\Temp\windowssdk
+
+08/10/2021  04:20 AM    <DIR>          BUILTIN\Administrators .
+08/10/2021  04:20 AM    <DIR>          WINDEV2106EVAL\User    ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\User\AppData\Local\Temp\{1657ABEE-7D56-416A-B7E0-A89CC5AAD0F7}
+
+06/14/2021  12:46 AM    <DIR>          BUILTIN\Administrators .
+06/14/2021  12:46 AM    <DIR>          WINDEV2106EVAL\User    ..
+               0 File(s)              0 bytes
+
+     Total Files Listed:
+              17 File(s)     42,547,423 bytes
+              83 Dir(s)  85,936,758,784 bytes free

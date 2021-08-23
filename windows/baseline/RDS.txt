@@ -1,0 +1,2 @@
+ USERNAME              SESSIONNAME        ID  STATE   IDLE TIME  LOGON TIME
+>user                  31c5ce94259d...     2  Active          .  8/10/2021 12:55 PM

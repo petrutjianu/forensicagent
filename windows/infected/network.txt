@@ -1,0 +1,92 @@
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State           PID
+  TCP    0.0.0.0:135            0.0.0.0:0              LISTENING       500
+  RpcSs
+ [svchost.exe]
+  TCP    0.0.0.0:445            0.0.0.0:0              LISTENING       4
+ Can not obtain ownership information
+  TCP    0.0.0.0:5040           0.0.0.0:0              LISTENING       1336
+  CDPSvc
+ [svchost.exe]
+  TCP    0.0.0.0:49664          0.0.0.0:0              LISTENING       808
+ [lsass.exe]
+  TCP    0.0.0.0:49665          0.0.0.0:0              LISTENING       628
+ Can not obtain ownership information
+  TCP    0.0.0.0:49666          0.0.0.0:0              LISTENING       1060
+  EventLog
+ [svchost.exe]
+  TCP    0.0.0.0:49667          0.0.0.0:0              LISTENING       1428
+  Schedule
+ [svchost.exe]
+  TCP    0.0.0.0:49668          0.0.0.0:0              LISTENING       2240
+ [spoolsv.exe]
+  TCP    0.0.0.0:49669          0.0.0.0:0              LISTENING       780
+ Can not obtain ownership information
+  TCP    172.25.163.32:139      0.0.0.0:0              LISTENING       4
+ Can not obtain ownership information
+  TCP    172.25.163.32:49690    20.54.37.64:443        ESTABLISHED     1428
+ [svchost.exe]
+  TCP    172.25.163.32:54608    20.86.186.134:443      ESTABLISHED     2732
+ Can not obtain ownership information
+  TCP    172.25.163.32:61971    95.166.124.161:443     CLOSE_WAIT      2648
+ [SearchApp.exe]
+  TCP    172.25.163.32:61972    95.166.124.161:443     CLOSE_WAIT      2648
+ [SearchApp.exe]
+  TCP    172.25.163.32:61976    143.204.233.111:443    CLOSE_WAIT      2648
+ [SearchApp.exe]
+  TCP    172.25.163.32:61979    95.166.124.107:443     CLOSE_WAIT      2648
+ [SearchApp.exe]
+  TCP    172.25.163.32:61980    95.166.124.107:443     CLOSE_WAIT      2648
+ [SearchApp.exe]
+  TCP    172.25.163.32:61981    184.84.222.24:443      CLOSE_WAIT      2648
+ [SearchApp.exe]
+  TCP    172.25.163.32:61982    93.184.220.29:80       CLOSE_WAIT      2648
+ [SearchApp.exe]
+  TCP    [::]:135               [::]:0                 LISTENING       500
+  RpcSs
+ [svchost.exe]
+  TCP    [::]:445               [::]:0                 LISTENING       4
+ Can not obtain ownership information
+  TCP    [::]:49664             [::]:0                 LISTENING       808
+ [lsass.exe]
+  TCP    [::]:49665             [::]:0                 LISTENING       628
+ Can not obtain ownership information
+  TCP    [::]:49666             [::]:0                 LISTENING       1060
+  EventLog
+ [svchost.exe]
+  TCP    [::]:49667             [::]:0                 LISTENING       1428
+  Schedule
+ [svchost.exe]
+  TCP    [::]:49668             [::]:0                 LISTENING       2240
+ [spoolsv.exe]
+  TCP    [::]:49669             [::]:0                 LISTENING       780
+ Can not obtain ownership information
+  UDP    0.0.0.0:5050           *:*                                    1336
+  CDPSvc
+ [svchost.exe]
+  UDP    0.0.0.0:5353           *:*                                    1764
+  Dnscache
+ [svchost.exe]
+  UDP    0.0.0.0:5355           *:*                                    1764
+  Dnscache
+ [svchost.exe]
+  UDP    127.0.0.1:55695        *:*                                    1428
+  iphlpsvc
+ [svchost.exe]
+  UDP    172.25.163.32:137      *:*                                    4
+ Can not obtain ownership information
+  UDP    172.25.163.32:138      *:*                                    4
+ Can not obtain ownership information
+  UDP    [::]:5353              *:*                                    1764
+  Dnscache
+ [svchost.exe]
+  UDP    [::]:5355              *:*                                    1764
+  Dnscache
+ [svchost.exe]
+
+Current WinHTTP proxy settings:
+
+    Direct access (no proxy server).
+
