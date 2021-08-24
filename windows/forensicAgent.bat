@@ -36,9 +36,9 @@ C:\WINDOWS\system32\netstat.exe -abno > %executiontime%/network.txt
 netsh winhttp show proxy >> %executiontime%/network.txt
 
 ::Is there any way to filter through this ?
-echo Getting Scheduled Tasks
+echo Getting Scheduled Tasks and BITS Jobs
 C:\WINDOWS\system32\schtasks.exe /query /v /fo CSV > %executiontime%/schTasks.csv
-
+powershell -command Get-BitsTransfer > %executiontime%/bitsjobs.txt
 ::Why is this important?
 echo Getting Local Groups
 ::C:\WINDOWS\system32\cmd.exe /C for /f "delims=*" %x in ('net localgroup ^|find "*"') do net localgroup "%x" > %executiontime%>LocalGroups.txt
@@ -58,6 +58,7 @@ C:\WINDOWS\system32\ipconfig.exe /all > %executiontime%/IPConfig.txt
 ::echo Getting Startup 
 powershell -command Get-ItemProperty -Path Registry::HKLM:\Software\Microsoft\Windows\CurrentVersion\Group` Policy\Scripts\Startup > %executiontime%/startup.txt
 ::C:\WINDOWS\system32\reg.exe QUERY HKLM\Software\Microsoft\Windows\CurrentVersion\Group` Policy\Scripts\Shutdown /s >> %executiontime%/startup.txt
+powershell -command Get-ItemProperty -Path Registry::HKCU:\Environment >> %executiontime%/startup.txt
 
 ::You need the autorun executable for this
 ::autorunsc.exe -accepteula -a * -c -vt -o autoruns.csv
@@ -94,10 +95,3 @@ powershell -command "Get-ChildItem -Path HKCU:\Software -Recurse" >> %executiont
 echo HKLM >> UIP.txt
 powershell -command "Get-ChildItem -Path HKLM:\Software -Recurse" >> %executiontime%/UIP.txt
 
-//extract prefetch
-//daily ssnapshots
-//lookup ips from netstat and dns cache on VT
-//parse prefetch, checksum check vt
-//comparec 2 machines , golden image//automate whois//downloads
-//poweshell usage
-//extract master file with disk vopy
