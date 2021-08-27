@@ -8,7 +8,7 @@ del date.txt
 
 ::What is this? Why is it important?
 echo MRU Results
-C:\WINDOWS\system32\reg.exe QUERY "HKEY_USERS\SOFTWARE\Microsoft\Windows\Explorer\RunMRU" /s > %executiontime%/mruResults.txt
+C:\WINDOWS\system32\reg.exe QUERY "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSavePidlMRU" /s > %executiontime%/mruResults.txt
 
 echo Getting Temp Directory Files 
 echo Temp Directory Files > %executiontime%/TempDirFiles.txt
@@ -41,7 +41,7 @@ C:\WINDOWS\system32\schtasks.exe /query /v /fo CSV > %executiontime%/schTasks.cs
 powershell -command Get-BitsTransfer > %executiontime%/bitsjobs.txt
 ::Why is this important?
 echo Getting Local Groups
-::C:\WINDOWS\system32\cmd.exe /C for /f "delims=*" %x in ('net localgroup ^|find "*"') do net localgroup "%x" > %executiontime%>LocalGroups.txt
+for /f "delims=*" %%x in ('net localgroup ^|find "*"') do net localgroup "%%x" >> LocalGroups.txt > %executiontime%>LocalGroups.txt
 ::Why is this important? How is the output interpreted?
 echo Getting ARP Cache
 C:\WINDOWS\system32\arp.exe -a > %executiontime%/ARPCache.txt
@@ -74,7 +74,7 @@ C:\WINDOWS\system32\query.exe user > %executiontime%/RDS.txt
 
 echo Getting Firewall Information
 echo Getting Firewall Logs 
-::for /f "tokens=2 delims= " %F in ('netsh advfirewall show currentprofile ^| findstr FileName') do cmd /C xcopy /F /Y /Q %F %CD%
+for /f "tokens=2 delims= " %%F in ('netsh advfirewall show currentprofile ^| findstr FileName') do cmd /C xcopy /F /Y /Q "%%F" "%%executiontime%"
 echo Getting Firewall Rules
 echo Firewall Rules > %executiontime%/fwrules.txt
 netsh advfirewall firewall show rule name=all >> %executiontime%/fwrules.txt
@@ -89,9 +89,8 @@ echo Getting WMIC Installed Programs
 C:\WINDOWS\system32\wbem\wmic.exe product get Caption,Description,IdentifyingNumber,InstallDate,InstallDate2,InstallLocation,InstallSource,InstallState,Language,LocalPackage,Name,PackageCache,PackageCode,PackageName,ProductID,Vendor,Version /format:csv > %executiontime%/InstalledPrograms.csv
 
 echo Getting User Installed Programs
-C:\WINDOWS\system32\reg.exe QUERY "HKEY_USERS\Software\Microsoft\Windows\CurrentVersion\Uninstall" /s > %executiontime%/UIP.txt
+C:\WINDOWS\system32\reg.exe QUERY "HKEY_USERS\Software\Microsoft\Windows\CurrentVersion\Uninstall" /s /fo CSV | find "," > UIP.csv
 
-powershell -command "Get-ChildItem -Path HKCU:\Software -Recurse" >> %executiontime%/UIP.txt
-echo HKLM >> UIP.txt
-powershell -command "Get-ChildItem -Path HKLM:\Software -Recurse" >> %executiontime%/UIP.txt
-
+powershell command "-Get-ChildItem -Path Registry::HKCU:\Software -Recurse | Export-Csv -Path .\UIPHKCU.csv"
+powershell command "-Get-ChildItem -Path Registry::HKLM:\Software -Recurse | Export-Csv -Path .\UIPHKLM.csv"
+powershell -command "Get-Item -Path Registry::HKLM\SOFTWARE | Select-Object -ExpandProperty Property | Export-Csv -Path .'"
