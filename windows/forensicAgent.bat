@@ -6,7 +6,7 @@ set /p executiontime= < date.txt
 mkdir %executiontime%
 del date.txt
 
-::What is this? Why is it important?
+
 echo MRU Results
 C:\WINDOWS\system32\reg.exe QUERY "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSavePidlMRU" /s > %executiontime%/mruResults.txt
 
@@ -35,32 +35,26 @@ echo Getting Network Status
 C:\WINDOWS\system32\netstat.exe -abno > %executiontime%/network.txt
 netsh winhttp show proxy >> %executiontime%/network.txt
 
-::Is there any way to filter through this ?
 echo Getting Scheduled Tasks and BITS Jobs
 C:\WINDOWS\system32\schtasks.exe /query /v /fo CSV > %executiontime%/schTasks.csv
 powershell -command Get-BitsTransfer > %executiontime%/bitsjobs.txt
-::Why is this important?
 echo Getting Local Groups
 for /f "delims=*" %%x in ('net localgroup ^|find "*"') do net localgroup "%%x" >> LocalGroups.txt > %executiontime%>LocalGroups.txt
-::Why is this important? How is the output interpreted?
 echo Getting ARP Cache
 C:\WINDOWS\system32\arp.exe -a > %executiontime%/ARPCache.txt
 
-::Why is this important? How is the output interpreted?
 echo Getting DNS Cache
 C:\WINDOWS\system32\ipconfig.exe /displaydns > %executiontime%/DNS.txt
 
-::Why is this important? How is the output interpreted?
 echo Getting IP Config
 C:\WINDOWS\system32\ipconfig.exe /all > %executiontime%/IPConfig.txt
 
-::Doesn't find the keys on my either work or personal laptop
-::echo Getting Startup 
+echo Getting Startup 
 powershell -command Get-ItemProperty -Path Registry::HKLM:\Software\Microsoft\Windows\CurrentVersion\Group` Policy\Scripts\Startup > %executiontime%/startup.txt
-::C:\WINDOWS\system32\reg.exe QUERY HKLM\Software\Microsoft\Windows\CurrentVersion\Group` Policy\Scripts\Shutdown /s >> %executiontime%/startup.txt
+C:\WINDOWS\system32\reg.exe QUERY HKLM\Software\Microsoft\Windows\CurrentVersion\Group` Policy\Scripts\Shutdown /s >> %executiontime%/startup.txt
 powershell -command Get-ItemProperty -Path Registry::HKCU:\Environment >> %executiontime%/startup.txt
 
-::You need the autorun executable for this
+::Uncomment the line below if you want to include the Autoruns command line utility in the forensic agent run
 ::autorunsc.exe -accepteula -a * -c -vt -o autoruns.csv
 
 echo Getting SMB Sessions
